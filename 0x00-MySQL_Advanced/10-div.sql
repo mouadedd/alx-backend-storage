@@ -2,6 +2,7 @@
 
 DELIMITER $$
 CREATE FUNCTION SafeDiv(a INT, b INT)
+RETURNS FLOAT
 BEGIN
     IF (b = 0)
     THEN
